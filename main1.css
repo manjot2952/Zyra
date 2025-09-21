@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* cadetblue */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2f;
+    color: #ffffff;
+}
+.container{
+    gap: 50px;
+}
+
+
+.upper,.bottom {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 4px 10px;
+    /* background-color: #282a36; */
+    border-radius: 8px;
+    height: 14vh;
+    width: 98vw;
+    /* border: 2px red solid; */
+    margin: 0px 5px;
+    border-radius: 8px;
+    
+}
+.upper-left,.upper-right,.upper-middle
+{
+  width: 32vw;
+  height: auto;
+  background-color: #282a36;
+  border-radius: 8px;
+  /* border: 2px solid red; */
+
+}
+.date{
+    font-size: 37px;
+}
+.time{
+    display: inline-flex;
+  font-size: 20px;
+}
+
+.day{
+    display: inline-flex;
+  font-size: 20px;
+  justify-content: space-around;
+  margin-left: 1vw;
+}
+.upper-middle{
+    margin: 0px 16px;
+}
+.name{
+    font-size: 63px;
+    font-stretch: expanded;
+    font-family:  "Courier New", monospace;
+    color: aqua;
+}
+.upper-right{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+    /* background-color: #282a36; */
+    border-radius: 8px;
+    height: 66vh;
+    width: 98vw;
+    /* border: 2px red solid; */
+    margin: 1.5px 5px;
+    border-radius: 8px;
+}
+.middle-left, .middle-right
+{
+  /* border: 2px red solid; */
+  width: 30vw;
+  /* background-color: #282a36; */
+  border-radius: 8px;
+
+}
+
+.middle-centre
+{
+  /* border: 2px red solid; */
+  width: 40vw;
+  margin: 0px 16px;
+  background-color: #282a36;
+  border-radius: 8px;
+}
+.middle-left-up,.middle-left-down{
+  display: flex;
+  flex-direction: column;
+  height: 48%;
+  width: 100%;
+  /* border: 2px solid red; */
+  border-radius: 8px;
+  background-color: #282a36;
+  margin-bottom: 4%;
+}
+.middle-left-up,.middle-left-down,.middle-right-up,.middle-right-down,.bottom-left,.bottom-right{
+    display: flex;
+    flex-direction: column;
+  text-align: initial;
+  font-size: large;
+}
+.message,.remainder,.undergoing ,.weather,.input,.system,.debug,.modes{
+    padding-left: 2vw;
+    color: aqua;
+}
+.middle-centre-above,.middle-centre-below{
+    display: flex;
+  text-align: initial;
+}
+.mess,.rem,.sys,.wea{
+    width: 92%;
+    height: 83%;
+    background-color: #1e1e2f;
+    margin-left: 4%;
+    display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.under,.inp{
+    width: 92%;
+    height: 64%;
+    background-color: #29274199;
+    margin-left: 4%;
+    border-radius: 7px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.under p,.inp p{
+    /* text-decoration: underline; */
+    padding-left: 5%;
+    /* color: darkgray; */
+    font-weight: bolder;
+}
+.mess p,.rem p,.wea p{
+    padding-left: 5% ;
+    padding-top: 5%;
+    /* color: darkgray; */
+    
+}
+.wea p{
+    color: coral;
+}
+.mess,.rem{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sys p{
+    padding-left: 5% ;
+    padding-top: 3%;
+    color: red;
+}
+.deb p{
+    padding-left: 3%;
+    padding-top: 1%;
+    /* color: darkgray; */
+}
+.deb{
+    width: 92%;
+   height: 66%;
+   background-color: #1e1e2f;
+   margin-left: 4%;
+}
+
+.temp{
+   width: 100%;
+   height:40%;
+   /* background-color: blue; */
+   font-size: 45px;
+
+}
+.overall{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   height:60%;
+   /* background-color: red; */
+   justify-content: space-between;
+   padding-left: 5%;
+
+}
+.state{
+    font-size: 26px;
+}
+
+
+.bottom-left,.bottom-right{
+  width: 50vw;
+  height: auto;
+  background-color: #282a36;
+  border-radius: 8px;
+}
+.bottom-left{
+    margin-right: 16px;
+}
+.middle-right-up,.middle-right-down{
+  display: flex;
+  flex-direction: column;
+  height: 48%;
+  width: 100%;
+  /* border: 2px solid red; */
+  border-radius: 8px;
+  background-color: #282a36;
+  margin-bottom: 4%;
+}
+.middle-centre-above,.middle-centre-below
+{
+  height: 15%;
+  width: 80%;
+  margin-left: 10%;
+  background-color: #1e1e2f;
+  display: flex;
+  flex-direction: column;
+}
+.middle-centre-above{
+    margin-top: 1.5%;
+}
+.middle-centre-middle{
+    height: 60%;
+    width: 90%;
+    background-color: #282a36;
+    display: flex;
+    flex-direction: row;
+    margin: 2% 0%;
+    margin-left: 5%;
+    justify-content: space-between;
+}
+.btn-start,.btn-stop{
+    height: 100%;
+    width: 17%;
+    background-color: #545976;
+    border-radius: 8%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    font-size: 26px;
+    cursor: pointer;
+}
+.btn-start{
+    background-color: #1e1e2f;
+}
+.btn-start {
+    color: #04ed6b;
+}
+.btn-stop{
+    background-color: #1e1e2f;
+}
+.btn-stop{
+    color: #f60636;
+}
+.btn-start:hover, .btn-stop:hover {
+    background-color: #252246d9; /* Lighter blue on hover */
+    transform: scale(1.05); /* Slight enlargement */
+    /*color: #eaeaea;*/ /* Softer white text */
+}
+
+/* Active Effect for Buttons */
+.btn-start:active, .btn-stop:active {
+    background-color: #1e1b3800; /* Darker shade on click */
+    transform: scale(0.95); /* Shrinks slightly */
+}
+.gif{
+    height: 100%;
+    width: 60%;
+    background-color: #545976;
+    border-radius: 8%;
+    overflow: hidden;
+}
+.gif img{
+    width: 100%; /* Ensures the GIF fills the container */
+    height: 100%; /* Ensures the GIF fills the container */
+    object-fit: cover;
+} 
+.bottom-right{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 80%;
+    justify-content: center;
+}
+.btn{
+    width: 30%;
+  height: 90%;
+  background-color: #25224600;
+  /* border: unset; */
+  color: wheat;
+  font-size: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+    background-color: #252246d9; /* Lighter shade on hover */
+    transform: scale(1.05); /* Slight enlargement */
+}
+
+/* Active Effect for ID Button */
+.btn:active {
+    background-color: #1e1b3800; /* Darker shade on click */
+    transform: scale(0.95); /* Shrinks slightly */
+}

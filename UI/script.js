@@ -111,7 +111,7 @@ fetchSystemInfo();
 
 
 async function getWeatherData(){
-    const apiKey = 'b49bddc295506288e959a7e61ad45bce';
+    const apiKey = 'your_api_key_here'; // Replace with your OpenWeatherMap API key
     const city = 'Batala'; 
     const units = 'metric';
     URL=`https://api.openweathermap.org/data/2.5/weather?q=mohali&appid=b49bddc295506288e959a7e61ad45bce&units=metric`;

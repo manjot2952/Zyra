@@ -4,7 +4,7 @@ import cohere
 def intelligentModel(user_input):
     try:
         query=user_input.lower()
-        co = cohere.Client('fh41LJSim8qDXljHeSBVF2CzfgmdzhpAvlxOiZAp')
+        co = cohere.Client('API_KEY')  # Replace with your actual API key
         # Generate text
         response = co.generate(
             model='command-xlarge-nightly',
